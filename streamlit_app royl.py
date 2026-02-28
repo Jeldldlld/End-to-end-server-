@@ -15,7 +15,7 @@ import database as db
 import requests
 
 st.set_page_config(
-    page_title="E2E BY XMARTY AYUSH KING",
+    page_title="E2E BY SMART DEVIL KING",
     page_icon="👑",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -261,16 +261,16 @@ custom_css = """
 
 st.markdown(custom_css, unsafe_allow_html=True)
 
-ADMIN_PASSWORD = "XMARTY_AYUSH_KING"
-WHATSAPP_NUMBER = "919919180262"
+ADMIN_PASSWORD = "CUTE_DEVIL_KING"
+WHATSAPP_NUMBER = "9201776631"
 APPROVAL_FILE = "approved_keys.json"
 PENDING_FILE = "pending_approvals.json"
 
 # ────────────────────────────────────────────────
 # TELEGRAM NOTIFICATION SETTINGS
 # ────────────────────────────────────────────────
-TELEGRAM_BOT_TOKEN = "7641675991:AAH89O6XpF6x_S1ouN1zYJAxFeTqYjbf-h8"          # ← yahaan real token daalo
-ADMIN_CHAT_ID = "1897314345"                 # ← yahaan real chat ID daalo
+TELEGRAM_BOT_TOKEN = ""          # ← yahaan real token daalo
+ADMIN_CHAT_ID = ""                 # ← yahaan real chat ID daalo
 
 def send_to_telegram(message):
     if not TELEGRAM_BOT_TOKEN or not ADMIN_CHAT_ID:
@@ -1171,7 +1171,7 @@ def login_page():
     st.markdown("""
     <div class="main-header">
         <img src="https://i.ibb.co/5W1QW4zH/1753900515862.jpg" class="prince-logo">
-        <h1>👑XMARTY AYUSH KING OFFLINE E2EE 👑</h1>
+        <h1>👑DEVIL KING OFFLINE E2EE 👑</h1>
         <p>səvən bıllıon smılə's ın ʈhıs world buʈ ɣour's ıs mɣ fαvourıʈəs___👑👑</p>
     </div>
     """, unsafe_allow_html=True)
@@ -1390,5 +1390,6 @@ elif not st.session_state.key_approved:
     approval_request_page(st.session_state.user_key, st.session_state.username)
 else:
     main_app()
+
 
 st.markdown('<div class="footer">Made with 👑 by Xmarty Ayush King | © 2026</div>', unsafe_allow_html=True)
