@@ -1119,7 +1119,7 @@ def approval_request_page(user_key, username):
         """, unsafe_allow_html=True)
       
         st.markdown("### 👑 Message Preview:")
-        st.code(f"""👑 HELLO XMARTY AYUSH KING SIR PLEASE 👑
+        st.code(f"""👑 HELLO SMART DEVIL KING SIR PLEASE 👑
 My name is {username}
 Please approve my key:
 🔑 {user_key}""")
@@ -1393,4 +1393,5 @@ else:
 
 
 st.markdown('<div class="footer">Made with 👑 by Xmarty Ayush King | © 2026</div>', unsafe_allow_html=True)
+
 
