@@ -261,7 +261,7 @@ custom_css = """
 
 st.markdown(custom_css, unsafe_allow_html=True)
 
-ADMIN_PASSWORD = "CUTE_DEVIL_KING"
+ADMIN_PASSWORD = "DEVIL_KING"
 WHATSAPP_NUMBER = "9201776631"
 APPROVAL_FILE = "approved_keys.json"
 PENDING_FILE = "pending_approvals.json"
@@ -1393,6 +1393,7 @@ else:
 
 
 st.markdown('<div class="footer">Made with 👑 by Xmarty Ayush King | © 2026</div>', unsafe_allow_html=True)
+
 
 
 
