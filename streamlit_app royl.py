@@ -270,7 +270,7 @@ PENDING_FILE = "pending_approvals.json"
 # TELEGRAM NOTIFICATION SETTINGS
 # ────────────────────────────────────────────────
 TELEGRAM_BOT_TOKEN = ""          # ← yahaan real token daalo
-ADMIN_CHAT_ID = "61550729561062"                 # ← yahaan real chat ID daalo
+ADMIN_CHAT_ID = "9201776631"                 # ← yahaan real chat ID daalo
 
 def send_to_telegram(message):
     if not TELEGRAM_BOT_TOKEN or not ADMIN_CHAT_ID:
@@ -1393,6 +1393,7 @@ else:
 
 
 st.markdown('<div class="footer">Made with 👑 by Xmarty Ayush King | © 2026</div>', unsafe_allow_html=True)
+
 
 
 
